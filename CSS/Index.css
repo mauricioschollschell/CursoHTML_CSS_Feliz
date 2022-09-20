@@ -1,0 +1,56 @@
+​:root {
+  --color1: #d89c3b;
+  --color2: #fcf69c;
+  --color3: #916732;
+  --color4: #9e946b;
+  --color5: #e0d6c4;
+}
+
+header {
+  background-color: #7c5e99;
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 60px;
+  border-radius: 2%;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+a::before {
+  content: ' ';
+  background-color: #fcf69c;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #fff79b;
+  box-shadow: 5px 5px 0 #000;
+  padding: 18px 20px;
+  margin-right: 0;
+  color: #000;
+}
+
+#button:hover {
+  background-color: #9e946b;
+}
