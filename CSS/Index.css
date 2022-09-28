@@ -67,10 +67,3 @@ a::before {
   transform: scale(1.02);
   opacity: 0.9;
 }
-
-section div {
-  background-color: #3a4042;
-  width: 627px;
-  height: 184px;
-  padding-top: 48px;
-}
