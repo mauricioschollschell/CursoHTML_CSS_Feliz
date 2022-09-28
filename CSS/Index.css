@@ -53,7 +53,7 @@ a::before {
   margin-right: 10px;
 }
 
-#button {
+.button {
   display: inline-block;
   background-color: #fff79b;
   box-shadow: 5px 5px 0 #000;
@@ -63,7 +63,31 @@ a::before {
   transition: 0.3s;
 }
 
-#button:hover {
+.button:hover {
   transform: scale(1.02);
   opacity: 0.9;
+}
+
+section div {
+  background-color: #3a4042;
+  width: 627px;
+  height: 184px;
+  padding-top: 48px;
+}
+
+section div h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: #fff79b;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+section div h2 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  margin: 28px 40px 44px;
 }
