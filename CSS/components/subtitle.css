@@ -1,0 +1,9 @@
+section div h2 {
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  text-shadow: 4px 4px 0 #000;
+  margin: 28px 40px 44px;
+}
