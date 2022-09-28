@@ -74,20 +74,3 @@ section div {
   height: 184px;
   padding-top: 48px;
 }
-
-section div h1 {
-  font-family: 'Press Start 2P', cursive;
-  text-align: center;
-  color: #fff79b;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-section div h2 {
-  font-family: 'Press Start 2P', cursive;
-  text-align: center;
-  font-size: 25px;
-  line-height: 30px;
-  color: white;
-  margin: 28px 40px 44px;
-}
