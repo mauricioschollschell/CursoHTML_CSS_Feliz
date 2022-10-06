@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fcf69cff;
+  background-color: #da2c38ff;
   width: 280px;
   height: 280px;
-  box-shadow: 10px 10px 0px black;
+  box-shadow: 10px 10px 0px #226f54ff;
 }
 
 .card-project.-blue {
   background-color: #4c5b84;
+  box-shadow: 10px 10px 0px #226f54ff;
 }
 
 .card-project img {
