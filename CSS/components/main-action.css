@@ -1,4 +1,4 @@
-.action {
+.main-action {
   display: inline-flex;
   align-items: center;
   color: #fff;
@@ -8,11 +8,11 @@
   transition: 0.2s;
 }
 
-.action:hover {
+.main-action:hover {
   transform: scale(1.05);
 }
 
-.action::before {
+.main-action::before {
   content: ' ';
   background-color: #fcf69c;
   height: 10px;
