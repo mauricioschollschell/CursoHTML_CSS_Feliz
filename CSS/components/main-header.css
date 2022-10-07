@@ -1,4 +1,4 @@
-.header {
+.main-header {
   display: flex;
   justify-content: space-between;
   background-color: #463239ff;
@@ -6,12 +6,12 @@
   padding: 10px 20px;
 }
 
-.header img {
+.main-header img {
   width: 60px;
   border-radius: 2%;
   box-shadow: 5px 5px 0 #000;
 }
 
-.header img:hover {
+.main-header img:hover {
   transform: scale(1.02);
 }
