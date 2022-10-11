@@ -1,5 +1,4 @@
 .wrapper-card{
   display: flex;
-  justify-content: center;
-  gap: 150px;
+  justify-content: space-around;
 }

@@ -12,6 +12,13 @@
 .main-section.-bgBlack {
   background-color: black;
 }
-.main-section.-bdFirst {
-  border-color: #fcf69cff;
+.main-section.-bgGreen {
+  background-color: #226f54ff;
+}
+
+.main-section.-bdYellow {
+  border-color: hsl(40deg 83% 59%);
+}
+.main-section.-bdRed {
+  border-color: #463239ff;
 }
