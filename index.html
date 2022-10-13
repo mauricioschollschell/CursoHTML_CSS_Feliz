@@ -31,10 +31,12 @@
     <link rel="stylesheet" href="./CSS/components/button-arrow.css" />
     <link rel="stylesheet" href="./CSS/components/node-card.css" />
     <link rel="stylesheet" href="./CSS/components/main-carousel.css" />
+    <link rel="stylesheet" href="./CSS/components/main-form.css" />
+    <link rel="stylesheet" href="./CSS/components/main-footer.css" />
   </head>
   <body>
     <header class="main-header">
-      <img src="./assets/images/logo.jpg" alt="Logo" />
+      <img src="./assets/images/logo.jpg" alt="Icone do Logo" />
       <nav class="navigation">
         <a class="main-action" href="" lang="en">Skills</a>
         <a class="main-action" href="">Projetos</a>
@@ -173,7 +175,7 @@
       </div>
     </section>
 
-    <section class="main-section -bgGreen -bdRed">
+    <section class="main-section -bgGreen -bdBlack -padding50">
       <h2 class="main-title -white">Sobre</h2>
 
       <section class="main-carousel">
@@ -245,7 +247,33 @@
         Airsoft ou trocando ideias com amigos.
       </p>
     </section>
+    <section class="main-section -bgGray -bdNone -padding50">
+      <form action="" method="get" class="main-form">
+        <h2 class="main-title -white -bdBlack">Contato</h2>
 
+        <label for="name">Nome:</label>
+        <input class="name" type="text" name="name" required />
+
+        <label for="email">Email:</label>
+        <input class="email" type="email" name="email" required />
+
+        <label for="message">Mensagem:</label>
+        <input class="message" type="text" name="message" />
+        <a class="main-button -formBtn" href="">Enviar</a>
+      </form>
+    </section>
+
+    <footer class="main-footer">
+      <a href="" target="_blank">
+        <img src="./img/twitter_ico.png" alt="Icone do Twitter" />
+      </a>
+      <a href="" target="_blank">
+        <img src="./img/youtube_ico.png" alt="Icone do Youtube" />
+      </a>
+      <a href="" target="_blank">
+        <img src="./img/discord_ico.png" alt="Icone do Discord" />
+      </a>
+    </footer>
     <script src="./JS/components/main-carousel.js"></script>
   </body>
 </html>
