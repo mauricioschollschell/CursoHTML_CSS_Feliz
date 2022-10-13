@@ -14,3 +14,7 @@
   transform: scale(1.02);
   opacity: 0.9;
 }
+
+.main-button.-formButton {
+  width: 100%;
+}
